@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"  href="weather.css">
+<body>
+    <div class="container">
+        <h1>☀️Weather ForeCast</h1>
+        <input type="text" id="city-input" placeholder="Enter City Name">
+        <button id="get-weather-btn">Get Weather</button>
+
+
+        <!---for current weather-->
+        <div class="weather-card">
+            <img id="weather-image" src="img4.png">
+        <div id="weather-info">
+            <h2>Current Weather</h2>
+            <p id="city-name"></p>
+            <p id="temperature"></p>
+            <p id="humidity"></p>
+            <p id="description"></p>
+            </div>
+        </div>
+
+        <section class="forecast-section">
+
+    <h2>5-Day Forecast</h2>
+
+    <div id="forcast-list" class="forecast-container"></div>
+
+</section>
+
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>
+
+<!----for 5 day weather-->
+
+        <!-- <div id="forcast-info">
+            <h2>5-Day forcast</h2>
+            <ul id="forcast-list"></ul>
+
+        </div> -->
